@@ -16,8 +16,7 @@ Fahrenheit <input type="number" min=0 id="ip"
     function temperatureConverter() {
         let valNum=document.getElementById('ip').value;
         valNum = parseFloat(valNum);
-        Celsius = (valNum-32) / 1.8;
-        document.getElementById("op").innerHTML =Celsius;
+        document.getElementById("op").innerHTML =(valNum - 32) / 1.8;
     }
 </script>
 </body>
